@@ -1,0 +1,7 @@
+apiVersion: sahil.dev/v1alpha1
+kind: HADeployment
+metadata:
+  name: one
+spec:
+  image: nginx
+  replicas: 1
